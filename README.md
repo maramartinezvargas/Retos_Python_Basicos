@@ -1,5 +1,6 @@
 
-# **Retos Python Básicos — Colección de ejercicios para desarrollar habilidades prácticas**
+# 🐍 **Retos Python Básicos**🐍 
+**Colección de ejercicios para desarrollar habilidades prácticas**
 
 Este repositorio reúne una selección de 15 ejercicios de Python pensados para mejorar de forma progresiva el razonamiento, la lógica y el dominio de las estructuras fundamentales del lenguaje. Cada reto está diseñado para practicar conceptos clave de programación y para demostrar un enfoque claro, ordenado y eficaz a la hora de resolver problemas reales.
 
@@ -8,8 +9,6 @@ Mi objetivo al construir este repositorio es ir ampliando y practicando habilida
 ---
 
 # **Enunciados de los 15 ejercicios**
-
----
 
 ### **1. Contador de palabras**
 
@@ -350,3 +349,4 @@ Conceptos básicos:
 * códigos de estado (200, 400, 401, 500…)
 
 ---
+
