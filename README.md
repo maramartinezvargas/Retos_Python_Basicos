@@ -4,7 +4,7 @@
 
 Este repositorio reúne una selección de 15 ejercicios de Python pensados para mejorar de forma progresiva el razonamiento, la lógica y el dominio de las estructuras fundamentales del lenguaje. Cada reto está diseñado para practicar conceptos clave de programación y para demostrar un enfoque claro, ordenado y eficaz a la hora de resolver problemas reales.
 
-Mi objetivo al construir este repositorio es ir ampliando y practicando habilidades en Python, manteniendo buenas prácticas y código limpio. Además, sirve como referencia para cualquier persona que quiera repasar fundamentos o ver ejemplos de soluciones limpias a problemas comunes.
+Mi objetivo al construir este repositorio es ir ampliando y practicando habilidades en Python, manteniendo buenas prácticas y código limpio. Además, sirve como referencia para cualquier persona que quiera repasar fundamentos o ver ejemplos de soluciones limpias a ejercicios comunes.
 
 ---
 
@@ -374,5 +374,6 @@ Conceptos básicos:
 * códigos de estado (200, 400, 401, 500…)
 
 ---
+
 
 
