@@ -9,7 +9,7 @@ def is_palindrome(string):
     return aux == rev
 
 
-string = "\"anita lava la tina\""
+string = "anita lava la tina"
 
 if is_palindrome(string): 
     print(string, "SI es palindroma")
