@@ -8,6 +8,31 @@ Mi objetivo al construir este repositorio es ir ampliando y practicando habilida
 
 ---
 
+### **Cómo ejecutar los ejercicios (desde terminal de Linux).**
+
+En cada script incluye la línea `#!/usr/bin/env python3`, para que pueda ejecutarse directamente desde la terminal.
+
+1. Dale permisos de ejecución al fichero:
+
+```sh
+chmod +x nombre_ejercicio.py
+```
+
+2. Ejecútalo:
+
+```sh
+./nombre_ejercicio.py
+```
+
+---
+
+Si prefieres ejecutarlo sin permisos, también puedes usar:
+
+```sh
+python3 nombre_ejercicio.py
+```
+
+
 # **Enunciados de los 15 ejercicios**
 
 ### **1. Contador de palabras**
@@ -349,4 +374,5 @@ Conceptos básicos:
 * códigos de estado (200, 400, 401, 500…)
 
 ---
+
 
