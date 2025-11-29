@@ -141,9 +141,9 @@ Dada una lista que contiene listas internas (por ejemplo `[1, [2, 3], [4, 5]]`),
 
 ### **13. Clase Persona**
 
-**Fichero:** `class_persona.py`
+**Fichero:** `class_person.py`
 
-Define una clase `Persona` con los atributos `nombre` y `edad`. Añade un método `presentarse()` que muestre un mensaje utilizando ambos atributos.
+Define una clase `Person` con los atributos `name` y `age`. Añade un método `introduce()` que muestre un mensaje utilizando ambos atributos.
 
 ---
 
@@ -321,10 +321,10 @@ Sirve para:
 Clase básica:
 
 ```python
-class Persona:
-    def __init__(self, nombre, edad):
-        self.nombre = nombre
-        self.edad = edad
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 ```
 
 Conceptos:
@@ -374,6 +374,3 @@ Conceptos básicos:
 * códigos de estado (200, 400, 401, 500…)
 
 ---
-
-
-
