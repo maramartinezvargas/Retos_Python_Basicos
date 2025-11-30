@@ -38,7 +38,7 @@ python3 nombre_ejercicio.py
 
 Escribe una función que reciba un texto y devuelva un diccionario donde las claves sean las palabras y los valores el número de veces que aparece cada una de ellas. Ignora mayúsculas/minúsculas.
 
-[word_counter.py](https://github.com/maramartinezvargas/RetosPython/blob/main/word_counter.py)
+[word_counter.py](https://github.com/maramartinezvargas/RetosPython/word_counter.py)
 
 ---
 
@@ -46,7 +46,7 @@ Escribe una función que reciba un texto y devuelva un diccionario donde las cla
 
 Dada una lista de números enteros, genera una nueva lista que contenga únicamente los números pares utilizando comprensión de listas.
 
-[filter_even_numbers.py](https://github.com/maramartinezvargas/RetosPython/blob/main/filter_even_numbers.py)
+[filter_even_numbers.py](https://github.com/maramartinezvargas/RetosPython/filter_even_numbers.py)
 
 ---
 
@@ -54,7 +54,7 @@ Dada una lista de números enteros, genera una nueva lista que contenga únicame
 
 Dada una lista de números, calcula el valor máximo y el mínimo sin utilizar las funciones `max()` ni `min()`.
 
-[manual_max_min.py](https://github.com/maramartinezvargas/RetosPython/blob/main/manual_max_min.py)
+[manual_max_min.py](https://github.com/maramartinezvargas/RetosPython/manual_max_min.py)
 
 ---
 
@@ -62,7 +62,7 @@ Dada una lista de números, calcula el valor máximo y el mínimo sin utilizar l
 
 Implementa una función que determine si una palabra o frase es un palíndromo. No debe tener en cuenta espacios ni mayúsculas.
 
-[is_palindrome.py](https://github.com/maramartinezvargas/RetosPython/blob/main/is_palindrome.py)
+[is_palindrome.py](https://github.com/maramartinezvargas/RetosPython/is_palindrome.py)
 
 ---
 
@@ -70,7 +70,7 @@ Implementa una función que determine si una palabra o frase es un palíndromo. 
 
 Crea una función que reciba una lista y devuelva una nueva lista con los elementos únicos, manteniendo cualquier orden válido.
 
-[remove_duplicates.py](https://github.com/maramartinezvargas/RetosPython/blob/main/remove_duplicates.py)
+[remove_duplicates.py](https://github.com/maramartinezvargas/RetosPython/remove_duplicates.py)
 
 ---
 
@@ -82,7 +82,7 @@ Escribe un programa que imprima los números del 1 al 50.
 * Si es múltiplo de 5, imprime “Buzz”.
 * Si es múltiplo de ambos, imprime “FizzBuzz”.
 
-[fizzbuzz.py](https://github.com/maramartinezvargas/RetosPython/blob/main/fizzbuzz.py)
+[fizzbuzz.py](https://github.com/maramartinezvargas/RetosPython/fizzbuzz.py)
 
 ---
 
@@ -90,7 +90,7 @@ Escribe un programa que imprima los números del 1 al 50.
 
 Dado un diccionario cuyas claves son cadenas y cuyos valores son números, implementa una función que calcule la suma total de esos valores.
 
-[dict_sum_values.py](https://github.com/maramartinezvargas/RetosPython/blob/main/dict_sum_values.py)
+[dict_sum_values.py](https://github.com/maramartinezvargas/RetosPython/dict_sum_values.py)
 
 ---
 
@@ -98,7 +98,7 @@ Dado un diccionario cuyas claves son cadenas y cuyos valores son números, imple
 
 Escribe una función que reciba una cadena de texto y devuelva cuántas vocales contiene (a, e, i, o, u), sin diferenciar mayúsculas de minúsculas.
 
-[count_vowels.py](https://github.com/maramartinezvargas/RetosPython/blob/main/count_vowels.py)
+[count_vowels.py](https://github.com/maramartinezvargas/RetosPython/count_vowels.py)
 
 ---
 
@@ -106,7 +106,7 @@ Escribe una función que reciba una cadena de texto y devuelva cuántas vocales 
 
 Implementa una función que reciba una cadena de texto y genere un diccionario que indique cuántas veces aparece cada carácter individual.
 
-[char_frequency.py](https://github.com/maramartinezvargas/RetosPython/blob/main/char_frequency.py)
+[char_frequency.py](https://github.com/maramartinezvargas/RetosPython/char_frequency.py)
 
 ---
 
@@ -114,7 +114,7 @@ Implementa una función que reciba una cadena de texto y genere un diccionario q
 
 Crea una función que reciba un diccionario y devuelva uno nuevo donde las claves sean los valores originales y los valores sean las claves. Supón que los valores no están repetidos.
 
-[invert_dict.py](https://github.com/maramartinezvargas/RetosPython/blob/main/invert_dict.py)
+[invert_dict.py](https://github.com/maramartinezvargas/RetosPython/invert_dict.py)
 
 ---
 
@@ -126,7 +126,7 @@ Escribe un programa que abra un fichero de texto y muestre:
 2. El número total de palabras.
 3. La palabra que se repite con más frecuencia.
 
-[file_basic_analysis.py](https://github.com/maramartinezvargas/RetosPython/blob/main/file_basic_analysis.py)
+[file_basic_analysis.py](https://github.com/maramartinezvargas/RetosPython/file_basic_analysis.py)
 
 ---
 
@@ -134,7 +134,7 @@ Escribe un programa que abra un fichero de texto y muestre:
 
 Dada una lista que contiene listas internas (por ejemplo `[1, [2, 3], [4, 5]]`), implementa una función que devuelva una lista “aplanada” en un único nivel.
 
-[flatten_list.py](https://github.com/maramartinezvargas/RetosPython/blob/main/flatten_list.py)
+[flatten_list.py](https://github.com/maramartinezvargas/RetosPython/flatten_list.py)
 
 ---
 
@@ -142,7 +142,7 @@ Dada una lista que contiene listas internas (por ejemplo `[1, [2, 3], [4, 5]]`),
 
 Define una clase `Person` con los atributos `name` y `age`. Añade un método `introduce()` que muestre un mensaje utilizando ambos atributos.
 
-[class_person.py](https://github.com/maramartinezvargas/RetosPython/blob/main/class_person.py)
+[class_person.py](https://github.com/maramartinezvargas/RetosPython/class_person.py)
 
 ---
 
@@ -155,7 +155,7 @@ Crea una clase que gestione una lista de elementos y permita realizar estas oper
 * comprobar si un elemento existe,
 * listar todos los elementos almacenados.
   
-[simple_crud_manager.py](https://github.com/maramartinezvargas/RetosPython/blob/main/simple_crud_manager.py)
+[simple_crud_manager.py](https://github.com/maramartinezvargas/RetosPython/simple_crud_manager.py)
 
 ---
 
@@ -167,7 +167,7 @@ Implementa una función que realice una petición GET a la API:
 
 y devuelva la edad estimada para el nombre proporcionado. (**Explicación más detallada abajo del todo*)
 
-[consume_public_api.py](https://github.com/maramartinezvargas/RetosPython/blob/main/consume_public_api.py)
+[consume_public_api.py](https://github.com/maramartinezvargas/RetosPython/consume_public_api.py)
 
 ---
 
@@ -396,4 +396,5 @@ El objetivo del ejercicio es:
 6. Manejar errores básicos de red con `try/except`.
 
 No se necesita API key ni autenticación, así que es un ejercicio ideal para aprender a trabajar con APIs sencillas y datos en formato JSON.
+
 
