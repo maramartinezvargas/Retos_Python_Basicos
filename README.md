@@ -171,11 +171,6 @@ Implementa una función que realice una petición GET a la API:
 y devuelva la edad estimada para el nombre proporcionado.
 
 ---
-Perfecto. Aquí tienes una **sección final de “Conceptos básicos de Python”**, pensada para complementar tus ejercicios y reforzar lo que una persona debe conocer para resolverlos. Es clara, útil y encaja perfectamente en un README orientado a aprendizaje continuo.
-
-Puedes pegarla tal cual al final del documento.
-
----
 
 # **Conceptos básicos necesarios para resolver estos ejercicios**
 
@@ -374,3 +369,4 @@ Conceptos básicos:
 * códigos de estado (200, 400, 401, 500…)
 
 ---
+
