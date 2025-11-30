@@ -1,4 +1,7 @@
-# 🐍 **Retos Python Básicos**🐍 
+
+# 🐍 Retos Python Básicos
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 
 **Colección de ejercicios para desarrollar habilidades prácticas**
 
@@ -8,9 +11,18 @@ Mi objetivo al construir este repositorio es ir ampliando y practicando habilida
 
 ---
 
-### **Cómo ejecutar los ejercicios (desde terminal de Linux).**
+## Índice
 
-En cada script incluye la línea `#!/usr/bin/env python3`, para que pueda ejecutarse directamente desde la terminal.
+* [Cómo ejecutar los ejercicios](#cómo-ejecutar-los-ejercicios-desde-terminal-de-linux)
+* [Tabla de ejercicios](#tabla-de-ejercicios)
+* [Enunciados de los 15 ejercicios](#enunciados-de-los-15-ejercicios)
+* [Conceptos básicos necesarios](#conceptos-básicos-necesarios-para-resolver-estos-ejercicios)
+
+---
+
+## Cómo ejecutar los ejercicios (desde terminal de Linux)
+
+En cada script se incluye la línea `#!/usr/bin/env python3` para que pueda ejecutarse directamente desde la terminal.
 
 1. Dale permisos de ejecución al fichero:
 
@@ -24,57 +36,79 @@ chmod +x nombre_ejercicio.py
 ./nombre_ejercicio.py
 ```
 
----
-
 Si prefieres ejecutarlo sin permisos, también puedes usar:
 
 ```sh
 python3 nombre_ejercicio.py
 ```
 
-# **Enunciados de los 15 ejercicios**
+---
 
-### **1. Contador de palabras**
+## Tabla de ejercicios
 
-Escribe una función que reciba un texto y devuelva un diccionario donde las claves sean las palabras y los valores el número de veces que aparece cada una de ellas. Ignora mayúsculas/minúsculas.
-
-[word_counter.py](https://github.com/maramartinezvargas/RetosPython/word_counter.py)
+| Nº | Ejercicio                | Archivo                                                                                                               |
+| -: | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+|  1 | Contador de palabras     | [word_counter.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/word_counter.py)               |
+|  2 | Filtrar números pares    | [filter_even_numbers.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/filter_even_numbers.py) |
+|  3 | Máx/Mín sin built-in     | [manual_max_min.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/manual_max_min.py)           |
+|  4 | Palíndromos              | [is_palindrome.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/is_palindrome.py)             |
+|  5 | Eliminar duplicados      | [remove_duplicates.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/remove_duplicates.py)     |
+|  6 | FizzBuzz                 | [fizzbuzz.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/fizzbuzz.py)                       |
+|  7 | Sumar valores            | [dict_sum_values.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/dict_sum_values.py)         |
+|  8 | Contador de vocales      | [count_vowels.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/count_vowels.py)               |
+|  9 | Frecuencia de caracteres | [char_frequency.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/char_frequency.py)           |
+| 10 | Invertir diccionario     | [invert_dict.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/invert_dict.py)                 |
+| 11 | Análisis de fichero      | [file_basic_analysis.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/file_basic_analysis.py) |
+| 12 | Aplanar lista            | [flatten_list.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/flatten_list.py)               |
+| 13 | Clase Persona            | [class_person.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/class_person.py)               |
+| 14 | CRUD sencillo            | [simple_crud_manager.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/simple_crud_manager.py) |
+| 15 | Consumir API             | [consume_public_api.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/consume_public_api.py)   |
 
 ---
 
-### **2. Filtrar números pares**
+## Enunciados de los 15 ejercicios
+
+### 1. Contador de palabras
+
+Escribe una función que reciba un texto y devuelva un diccionario donde las claves sean las palabras y los valores el número de veces que aparece cada una. Ignora mayúsculas/minúsculas.
+
+[word_counter.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/word_counter.py)
+
+---
+
+### 2. Filtrar números pares
 
 Dada una lista de números enteros, genera una nueva lista que contenga únicamente los números pares utilizando comprensión de listas.
 
-[filter_even_numbers.py](https://github.com/maramartinezvargas/RetosPython/filter_even_numbers.py)
+[filter_even_numbers.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/filter_even_numbers.py)
 
 ---
 
-### **3. Máximo y mínimo sin funciones built-in**
+### 3. Máximo y mínimo sin funciones built-in
 
-Dada una lista de números, calcula el valor máximo y el mínimo sin utilizar las funciones `max()` ni `min()`.
+Dada una lista de números, calcula el valor máximo y el mínimo sin utilizar `max()` ni `min()`.
 
-[manual_max_min.py](https://github.com/maramartinezvargas/RetosPython/manual_max_min.py)
+[manual_max_min.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/manual_max_min.py)
 
 ---
 
-### **4. Comprobar si una palabra es palíndroma**
+### 4. Comprobar si una palabra es palíndroma
 
 Implementa una función que determine si una palabra o frase es un palíndromo. No debe tener en cuenta espacios ni mayúsculas.
 
-[is_palindrome.py](https://github.com/maramartinezvargas/RetosPython/is_palindrome.py)
+[is_palindrome.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/is_palindrome.py)
 
 ---
 
-### **5. Eliminar elementos duplicados**
+### 5. Eliminar elementos duplicados
 
 Crea una función que reciba una lista y devuelva una nueva lista con los elementos únicos, manteniendo cualquier orden válido.
 
-[remove_duplicates.py](https://github.com/maramartinezvargas/RetosPython/remove_duplicates.py)
+[remove_duplicates.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/remove_duplicates.py)
 
 ---
 
-### **6. FizzBuzz**
+### 6. FizzBuzz
 
 Escribe un programa que imprima los números del 1 al 50.
 
@@ -82,43 +116,43 @@ Escribe un programa que imprima los números del 1 al 50.
 * Si es múltiplo de 5, imprime “Buzz”.
 * Si es múltiplo de ambos, imprime “FizzBuzz”.
 
-[fizzbuzz.py](https://github.com/maramartinezvargas/RetosPython/fizzbuzz.py)
+[fizzbuzz.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/fizzbuzz.py)
 
 ---
 
-### **7. Sumar valores de un diccionario**
+### 7. Sumar valores de un diccionario
 
 Dado un diccionario cuyas claves son cadenas y cuyos valores son números, implementa una función que calcule la suma total de esos valores.
 
-[dict_sum_values.py](https://github.com/maramartinezvargas/RetosPython/dict_sum_values.py)
+[dict_sum_values.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/dict_sum_values.py)
 
 ---
 
-### **8. Contador de vocales**
+### 8. Contador de vocales
 
 Escribe una función que reciba una cadena de texto y devuelva cuántas vocales contiene (a, e, i, o, u), sin diferenciar mayúsculas de minúsculas.
 
-[count_vowels.py](https://github.com/maramartinezvargas/RetosPython/count_vowels.py)
+[count_vowels.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/count_vowels.py)
 
 ---
 
-### **9. Frecuencia de caracteres**
+### 9. Frecuencia de caracteres
 
 Implementa una función que reciba una cadena de texto y genere un diccionario que indique cuántas veces aparece cada carácter individual.
 
-[char_frequency.py](https://github.com/maramartinezvargas/RetosPython/char_frequency.py)
+[char_frequency.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/char_frequency.py)
 
 ---
 
-### **10. Invertir un diccionario**
+### 10. Invertir un diccionario
 
 Crea una función que reciba un diccionario y devuelva uno nuevo donde las claves sean los valores originales y los valores sean las claves. Supón que los valores no están repetidos.
 
-[invert_dict.py](https://github.com/maramartinezvargas/RetosPython/invert_dict.py)
+[invert_dict.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/invert_dict.py)
 
 ---
 
-### **11. Análisis básico de un fichero de texto**
+### 11. Análisis básico de un fichero de texto
 
 Escribe un programa que abra un fichero de texto y muestre:
 
@@ -126,48 +160,45 @@ Escribe un programa que abra un fichero de texto y muestre:
 2. El número total de palabras.
 3. La palabra que se repite con más frecuencia.
 
-[file_basic_analysis.py](https://github.com/maramartinezvargas/RetosPython/file_basic_analysis.py)
+[file_basic_analysis.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/file_basic_analysis.py)
 
 ---
 
-### **12. Aplanar una lista**
+### 12. Aplanar una lista
 
-Dada una lista que contiene listas internas (por ejemplo `[1, [2, 3], [4, 5]]`), implementa una función que devuelva una lista “aplanada” en un único nivel.
+Dada una lista que contiene listas internas, implementa una función que devuelva una lista “aplanada” en un único nivel.
 
-[flatten_list.py](https://github.com/maramartinezvargas/RetosPython/flatten_list.py)
+[flatten_list.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/flatten_list.py)
 
 ---
 
-### **13. Clase Persona**
+### 13. Clase Persona
 
 Define una clase `Person` con los atributos `name` y `age`. Añade un método `introduce()` que muestre un mensaje utilizando ambos atributos.
 
-[class_person.py](https://github.com/maramartinezvargas/RetosPython/class_person.py)
+[class_person.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/class_person.py)
 
 ---
 
-### **14. Implementar un CRUD sencillo**
+### 14. Implementar un CRUD sencillo
 
-Crea una clase que gestione una lista de elementos y permita realizar estas operaciones:
+Crea una clase que gestione una lista de elementos y permita realizar operaciones CRUD básicas.
 
-* añadir un elemento,
-* eliminar un elemento,
-* comprobar si un elemento existe,
-* listar todos los elementos almacenados.
-  
-[simple_crud_manager.py](https://github.com/maramartinezvargas/RetosPython/simple_crud_manager.py)
+[simple_crud_manager.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/simple_crud_manager.py)
 
 ---
 
-### **15. Consumir una API pública**
+### 15. Consumir una API pública
 
-Implementa una función que realice una petición GET a la API:
+Implementa una función que realice una petición GET a:
 
-`https://api.agify.io/?name=<nombre>`
+```
+https://api.agify.io/?name=<nombre>
+```
 
-y devuelva la edad estimada para el nombre proporcionado. (**Explicación más detallada abajo del todo*)
+y devuelva la edad estimada.
 
-[consume_public_api.py](https://github.com/maramartinezvargas/RetosPython/consume_public_api.py)
+[consume_public_api.py](https://github.com/maramartinezvargas/Retos_Python_Basicos/blob/main/consume_public_api.py)
 
 ---
 
@@ -396,5 +427,6 @@ El objetivo del ejercicio es:
 6. Manejar errores básicos de red con `try/except`.
 
 No se necesita API key ni autenticación, así que es un ejercicio ideal para aprender a trabajar con APIs sencillas y datos en formato JSON.
+
 
 
