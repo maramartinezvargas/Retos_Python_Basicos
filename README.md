@@ -361,12 +361,41 @@ r = requests.get("https://api.example.com")
 data = r.json()
 ```
 
-Conceptos básicos:
+# Explicación del ejercicio
 
-* endpoints
-* JSON
-* diccionarios resultantes
-* códigos de estado (200, 400, 401, 500…)
+En este reto se practica cómo **consumir una API pública** desde Python utilizando la librería `requests`.
 
----
+La API utilizada es **Agify**:
+
+```
+https://api.agify.io/?name=<nombre>
+```
+
+Esta API devuelve una estimación de la edad media asociada a un nombre. Por ejemplo:
+
+```
+https://api/agify.io/?name=alex
+```
+
+responde algo así:
+
+```json
+{
+  "name": "alex",
+  "age": 32,
+  "count": 12345
+}
+```
+
+El objetivo del ejercicio es:
+
+1. Pedir un nombre al usuario por consola.
+2. Enviar ese nombre a la API mediante una petición **GET** con `requests.get()`.
+3. Convertir la respuesta JSON en un diccionario de Python usando `response.json()`.
+4. Extraer el valor de `"age"` del diccionario.
+5. Mostrar la edad estimada por pantalla.
+6. Manejar errores básicos de red con `try/except`.
+
+No se necesita API key ni autenticación, así que es un ejercicio ideal para aprender a trabajar con APIs sencillas y datos en formato JSON.
+
 
