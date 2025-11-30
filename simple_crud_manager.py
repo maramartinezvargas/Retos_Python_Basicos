@@ -1,17 +1,5 @@
 #!/usr/bin/env python3
 
-"""
-14. Implementar un CRUD sencillo
-Fichero: simple_crud_manager.py
-
-Crea una clase que gestione una lista de elementos y permita realizar estas operaciones:
-
-añadir un elemento,
-eliminar un elemento,
-comprobar si un elemento existe,
-listar todos los elementos almacenados.
-"""
-
 class BookCollection():
     
     def __init__(self):
