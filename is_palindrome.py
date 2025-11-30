@@ -2,15 +2,10 @@
 
 def is_palindrome(string):
     aux = string.lower().replace(" ", "")
-    rev = ""
-
     rev = aux[::-1]
-    
     return aux == rev
 
-
 string = "anita lava la tina"
-
 if is_palindrome(string): 
     print(string, "SI es palindroma")
 else:
