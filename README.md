@@ -1,4 +1,4 @@
-# 🐍 **Retos Python Básicos**🐍
+# 🐍 **Retos Python Básicos**🐍 
 
 **Colección de ejercicios para desarrollar habilidades prácticas**
 
@@ -396,3 +396,4 @@ El objetivo del ejercicio es:
 6. Manejar errores básicos de red con `try/except`.
 
 No se necesita API key ni autenticación, así que es un ejercicio ideal para aprender a trabajar con APIs sencillas y datos en formato JSON.
+
